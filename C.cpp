@@ -1,13 +1,5 @@
 #include <iostream>
 
-void quicksort(int* array, int* second_array, int size) {
-    int index_left_side_element = 0;
-    int index_right_side_element = size - 1;
-
-    if (size < 2) {
-        return;
-    }#include <iostream>
-
 void quicksort(int* array, int size) {
     int index_left_side_element = 0;
     int index_right_side_element = size - 1;
